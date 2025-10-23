@@ -111,7 +111,3 @@ Collaborating institutions include Mathari Teaching and Referral Hospital, Kises
 
 This project is released under the **MIT License** for research and non-commercial use.
 Ethical approval is required for any deployment involving human participants.
-
----
-
-Would you like me to include a short “**Getting Started**” section with environment setup and Docker instructions — or keep this as a high-level research README?
