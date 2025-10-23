@@ -1,0 +1,339 @@
+[
+  {
+    "id": "gad7_q01",
+    "question": {
+      "english": "Over the last two weeks, how often have you been bothered by the following problems? Feeling nervous, anxious, or on edge",
+      "swahili": "Kwa kipindi cha wiki mbili zilizopita, je, ni mara ngapi umehisi kutumbuliwa na matatizo yafuatayo? Kuwa na wasiwasi, mwenye hofu"
+    },
+    "category": "anxiety",
+    "tags": [
+      "GAD-7",
+      "screening"
+    ]
+  },
+  {
+    "id": "gad7_q02",
+    "question": {
+      "english": "Over the last two weeks, how often have you been bothered by the following problems? Not being able to s top or control worrying",
+      "swahili": "Kwa kipindi cha wiki mbili zilizopita, je, ni mara ngapi umehisi kutumbuliwa na matatizo yafuatayo? Kutoweza kuzuia hofu au kudhibiti wasiwasi"
+    },
+    "category": "anxiety",
+    "tags": [
+      "GAD-7",
+      "screening"
+    ]
+  },
+  {
+    "id": "gad7_q03",
+    "question": {
+      "english": "Over the last two weeks, how often have you been bothered by the following problems? Worrying too much about different things",
+      "swahili": "Kwa kipindi cha wiki mbili zilizopita, je, ni mara ngapi umehisi kutumbuliwa na matatizo yafuatayo? Mwenye wasiwasi kupita kiasi kuhusu mambo tofauti tofauti"
+    },
+    "category": "anxiety",
+    "tags": [
+      "GAD-7",
+      "screening"
+    ]
+  },
+  {
+    "id": "gad7_q04",
+    "question": {
+      "english": "Over the last two weeks, how often have you been bothered by the following problems? Trouble relaxing",
+      "swahili": "Kwa kipindi cha wiki mbili zilizopita, je, ni mara ngapi umehisi kutumbuliwa na matatizo yafuatayo? Mwenye tatizo la kutulia na kupumzika/kustarehe"
+    },
+    "category": "anxiety",
+    "tags": [
+      "GAD-7",
+      "screening"
+    ]
+  },
+  {
+    "id": "gad7_q05",
+    "question": {
+      "english": "Over the last two weeks, how often have you been bothered by the following problems? Being so restless that it is hard to sit still",
+      "swahili": "Kwa kipindi cha wiki mbili zilizopita, je, ni mara ngapi umehisi kutumbuliwa na matatizo yafuatayo? Uliyekosa utulivu sana kiasi cha kutoweza kukaa mahali pamoja"
+    },
+    "category": "anxiety",
+    "tags": [
+      "GAD-7",
+      "screening"
+    ]
+  },
+  {
+    "id": "gad7_q06",
+    "question": {
+      "english": "Over the last two weeks, how often have you been bothered by the following problems? Becoming easily annoyed or irritable",
+      "swahili": "Kwa kipindi cha wiki mbili zilizopita, je, ni mara ngapi umehisi kutumbuliwa na matatizo yafuatayo? Mwenye hasira, ama kukerwa kwa haraka"
+    },
+    "category": "anxiety",
+    "tags": [
+      "GAD-7",
+      "screening"
+    ]
+  },
+  {
+    "id": "gad7_q07",
+    "question": {
+      "english": "Over the last two weeks, how often have you been bothered by the following problems? Feeling afraid, as if something awful",
+      "swahili": "Kwa kipindi cha wiki mbili zilizopita, je, ni mara ngapi umehisi kutumbuliwa na matatizo yafuatayo? Mwenye woga ni kana kwamba jambo baya linaweza kutokea wakati wowote"
+    },
+    "category": "anxiety",
+    "tags": [
+      "GAD-7",
+      "screening"
+    ]
+  },
+  {
+    "id": "psq_hypomania_probe",
+    "question": {
+      "english": "Over the past year, have there been times when you felt very happy indeed without a break for days on end?",
+      "swahili": "Katika mwaka uliopita, umewahi kuhisi kufurahi sana bila mapumziko kwa siku kadhaa mfululizo?"
+    },
+    "category": "psychosis",
+    "tags": [
+      "PSQ",
+      "hypomania",
+      "screening"
+    ]
+  },
+  {
+    "id": "psq_hypomania_probe_f1",
+    "question": {
+      "english": "Was there an obvious reason for this?",
+      "swahili": "Je, kulikuwa na sababu dhahiri ya hisia hizi?"
+    },
+    "category": "psychosis",
+    "tags": [
+      "PSQ",
+      "hypomania",
+      "screening",
+      "follow-up"
+    ]
+  },
+  {
+    "id": "psq_hypomania_probe_f2",
+    "question": {
+      "english": "Did your relatives or friends think it was strange or complain about it?",
+      "swahili": "Je, jamaa au marafiki zako waliona ni ajabu au kulalamika kuhusu hilo?"
+    },
+    "category": "psychosis",
+    "tags": [
+      "PSQ",
+      "hypomania",
+      "screening",
+      "follow-up"
+    ]
+  },
+  {
+    "id": "psq_thought_insertion_probe",
+    "question": {
+      "english": "Over the past year, have you ever felt that your thoughts were directly interfered with or controlled by some outside force or person?",
+      "swahili": "Katika mwaka uliopita, umewahi kuhisi kwamba mawazo yako yalikuwa yanaingiliwa au kudhibitiwa moja kwa moja na nguvu fulani ya nje au mtu?"
+    },
+    "category": "psychosis",
+    "tags": [
+      "PSQ",
+      "thought insertion",
+      "screening"
+    ]
+  },
+  {
+    "id": "psq_thought_insertion_probe_f1",
+    "question": {
+      "english": "Did this come about in a way that many people would find hard to believe, for instance, through telepathy?",
+      "swahili": "Je, hii ilitokea kwa njia ambayo watu wengi wangeona ni ngumu kuamini, kwa mfano, kwa njia ya 'telepathy'?"
+    },
+    "category": "psychosis",
+    "tags": [
+      "PSQ",
+      "thought insertion",
+      "screening",
+      "follow-up"
+    ]
+  },
+  {
+    "id": "psq_paranoia_probe",
+    "question": {
+      "english": "Over the past year, have there been times when you felt that people were against you?",
+      "swahili": "Katika mwaka uliopita, kumekuwa na nyakati ambapo ulihisi kwamba watu walikuwa kinyume na wewe?"
+    },
+    "category": "psychosis",
+    "tags": [
+      "PSQ",
+      "paranoia",
+      "screening"
+    ]
+  },
+  {
+    "id": "psq_paranoia_probe_f1",
+    "question": {
+      "english": "Have there been times when you felt that people were deliberately acting to harm you or your interests?",
+      "swahili": "Kumekuwa na nyakati ambapo ulihisi kwamba watu walikuwa wakifanya makusudi kukudhuru wewe au maslahi yako?"
+    },
+    "category": "psychosis",
+    "tags": [
+      "PSQ",
+      "paranoia",
+      "screening",
+      "follow-up"
+    ]
+  },
+  {
+    "id": "psq_paranoia_probe_f2",
+    "question": {
+      "english": "Have there been times when you felt that a group of people were plotting to cause you serious harm or injury?",
+      "swahili": "Kumekuwa na nyakati ambapo ulihisi kwamba kundi la watu walikuwa wakipanga njama ya kukusababishia madhara makubwa au majeraha?"
+    },
+    "category": "psychosis",
+    "tags": [
+      "PSQ",
+      "paranoia",
+      "screening",
+      "follow-up"
+    ]
+  },
+  {
+    "id": "psq_strange_experiences_probe",
+    "question": {
+      "english": "Over the past year, have there been times when you felt that something strange was going on?",
+      "swahili": "Katika mwaka uliopita, kumekuwa na nyakati ambapo ulihisi kwamba kitu cha ajabu sana kilikuwa kikitokea?"
+    },
+    "category": "psychosis",
+    "tags": [
+      "PSQ",
+      "strange experiences",
+      "screening"
+    ]
+  },
+  {
+    "id": "psq_strange_experiences_probe_f1",
+    "question": {
+      "english": "Did you feel it was so strange that other people would find it very hard to believe?",
+      "swahili": "Je, ulihisi ilikuwa ya ajabu sana kiasi kwamba watu wengine wangeona ni ngumu sana kuamini?"
+    },
+    "category": "psychosis",
+    "tags": [
+      "PSQ",
+      "strange experiences",
+      "screening",
+      "follow-up"
+    ]
+  },
+  {
+    "id": "psq_hallucinations_probe",
+    "question": {
+      "english": "Over the past year, have there been times when you heard or saw things that other people couldn’t?",
+      "swahili": "Katika mwaka uliopita, kumekuwa na nyakati ambapo ulisikia au kuona vitu ambavyo watu wengine hawakuweza?"
+    },
+    "category": "psychosis",
+    "tags": [
+      "PSQ",
+      "hallucinations",
+      "screening"
+    ]
+  },
+  {
+    "id": "psq_hallucinations_probe_f1",
+    "question": {
+      "english": "Did you at any time hear voices saying quite a few words or sentences when there was no one around that might account for it?",
+      "swahili": "Je, umewahi kusikia sauti zikisema maneno au sentensi kadhaa wakati hakuna mtu karibu ambaye angeweza kusababisha sauti hizo?"
+    },
+    "category": "psychosis",
+    "tags": [
+      "PSQ",
+      "hallucinations",
+      "screening",
+      "follow-up"
+    ]
+  },
+  {
+    "id": "phq9_q01",
+    "question": {
+      "english": "Over the last two weeks, how often have you been bothered by the following problems? Little interest or pleasure in doing things",
+      "swahili": "Katika wiki 2 zilizopita, ni mara ngapi umekuwa ukisumbuliwa na shida zozote zifuatazo? Kupoteza hamu au furaha katika shughuli za kila siku"
+    },
+    "category": "depression",
+    "tags": ["PHQ-9", "screening"]
+  },
+  {
+    "id": "phq9_q02",
+    "question": {
+      "english": "Over the last two weeks, how often have you been bothered by the following problems? Feeling down, depressed, or hopeless",
+      "swahili": "Katika wiki 2 zilizopita, ni mara ngapi umekuwa ukisumbuliwa na shida zozote zifuatazo? Kukosa furaha/kuboeka, mawazo mengi, au kukosa tumaini"
+    },
+    "category": "depression",
+    "tags": ["PHQ-9", "screening"]
+  },
+  {
+    "id": "phq9_q03",
+    "question": {
+      "english": "Over the last two weeks, how often have you been bothered by the following problems? Trouble falling or staying asleep, or sleeping too much",
+      "swahili": "Katika wiki 2 zilizopita, ni mara ngapi umekuwa ukisumbuliwa na shida zozote zifuatazo? Shida ya kupata usingizi au kulala sana"
+    },
+    "category": "depression",
+    "tags": ["PHQ-9", "screening"]
+  },
+  {
+    "id": "phq9_q04",
+    "question": {
+      "english": "Over the last two weeks, how often have you been bothered by the following problems? Feeling tired or having little energy",
+      "swahili": "Katika wiki 2 zilizopita, ni mara ngapi umekuwa ukisumbuliwa na shida zozote zifuatazo? Kusikia uchovu au kuwa na nguvu kidogo"
+    },
+    "category": "depression",
+    "tags": ["PHQ-9", "screening"]
+  },
+  {
+    "id": "phq9_q05",
+    "question": {
+      "english": "Over the last two weeks, how often have you been bothered by the following problems? Poor appetite or overeating",
+      "swahili": "Katika wiki 2 zilizopita, ni mara ngapi umekuwa ukisumbuliwa na shida zozote zifuatazo? Kukosa hamu ya kula au kula sana"
+    },
+    "category": "depression",
+    "tags": ["PHQ-9", "screening"]
+  },
+  {
+    "id": "phq9_q06",
+    "question": {
+      "english": "Over the last two weeks, how often have you been bothered by the following problems? Feeling bad about yourself or that you are a failure or have let yourself or your family down",
+      "swahili": "Katika wiki 2 zilizopita, ni mara ngapi umekuwa ukisumbuliwa na shida zozote zifuatazo? Kusikia vibaya au kwamba umeshindwa au umeaibisha familia yako"
+    },
+    "category": "depression",
+    "tags": ["PHQ-9", "screening"]
+  },
+  {
+    "id": "phq9_q07",
+    "question": {
+      "english": "Over the last two weeks, how often have you been bothered by the following problems? Trouble concentrating on things, such as reading the newspaper or watching television",
+      "swahili": "Katika wiki 2 zilizopita, ni mara ngapi umekuwa ukisumbuliwa na shida zozote zifuatazo? Shida ya kuzingatia/kuwa makini kwa kazi yoyote nyumbani"
+    },
+    "category": "depression",
+    "tags": ["PHQ-9", "screening"]
+  },
+  {
+    "id": "phq9_q08",
+    "question": {
+      "english": "Over the last two weeks, how often have you been bothered by the following problems? Moving or speaking so slowly that other people could have noticed. Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual",
+      "swahili": "Katika wiki 2 zilizopita, ni mara ngapi umekuwa ukisumbuliwa na shida zozote zifuatazo? Kutembea au kuongea polepole sana kwamba watu wengine wangeweza kugundua. Au kutokuwa na uwezo wa kutulia kama kawaida"
+    },
+    "category": "depression",
+    "tags": ["PHQ-9", "screening"]
+  },
+  {
+    "id": "phq9_q09",
+    "question": {
+      "english": "Over the last two weeks, how often have you been bothered by the following problems? Thoughts that you would be better off dead, or of hurting yourself",
+      "swahili": "Katika wiki 2 zilizopita, ni mara ngapi umekuwa ukisumbuliwa na shida zozote zifuatazo? Mawazo kwamba ungependelea kufa, au kujiumiza"
+    },
+    "category": "depression",
+    "tags": ["PHQ-9", "screening", "suicide"]
+  },
+  {
+    "id": "phq9_q10",
+    "question": {
+      "english": "If you checked off any problems, how difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?",
+      "swahili": "Ikiwa umepatwa na shida yoyote, ni vipi shida hizi zimekusababishia ugumu kufanya kazi yako, kutunza vitu nyumbani, au kushirikiana vizuri na watu wengine?"
+    },
+    "category": "depression",
+    "tags": ["PHQ-9", "functional_impairment"]
+  }
+]

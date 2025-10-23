@@ -1,0 +1,41 @@
+tasks:
+  - id: question_recommender
+    name: Question Recommender
+    description: |
+      Suggest the next most relevant question that assess anxiety, depression and psychosis
+      based on the ongoing conversation and similar cases.
+    expected_output: |
+      A single short question in the required format (English, Swahili, or bilingual).
+    agent: question_recommender_agent
+
+  - id: patient_response
+    name: Patient Response
+    description: |
+      Respond as a patient experiencing mental health challenges.
+      Provide concise, realistic, and empathetic answers in the requested language(s).
+    expected_output: |
+      A short, natural response that fits the patient’s perspective.
+    agent: patient_agent
+
+  - id: listener_summary
+    name: Listener Summary
+    description: |
+      Summarize the entire counseling conversation in a sensitive, supportive way.
+      Highlight emotional themes, main concerns, red flags, the presence of anxiety, depression and or psychosis and coping strategies.
+    expected_output: |
+      A bilingual summary with sections:
+      **English Summary:** …  
+      **Swahili Summary:** …
+    agent: listener_agent
+
+  - id: final_plan
+    name: Final Plan
+    description: |
+      Create a structured mental health care plan based on the conversation and summary.
+      Include coping strategies, lifestyle recommendations, referrals, and safety considerations.
+    expected_output: |
+      **FINAL PLAN:**  
+      - Step 1: …  
+      - Step 2: …  
+      - Step 3: …
+    agent: clinician_agent

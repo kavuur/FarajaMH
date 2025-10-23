@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+{% block title %}Admin · Mental Health Screening App{% endblock %}
+{% block content %}
+<div class="container-fluid px-0">
+  <div class="container">
+    <div class="d-flex align-items-end justify-content-between flex-wrap gap-2 mt-3 mb-2">
+      <div>
+        <h2 class="mb-0">Admin Dashboard</h2>
+        <div class="text-muted small">Welcome, {{ current_user.email }}</div>
+      </div>
+      <div id="admin-error" class="text-danger small" style="display:none;"></div>
+    </div>
+
+    <!-- KPIs -->
+    <div class="row g-3">
+      <div class="col-md-3">
+        <div class="card shadow-sm h-100 border-0 kpi">
+          <div class="card-body">
+            <div class="kpi-icon bg-primary-subtle text-primary"><i class="fa-solid fa-users"></i></div>
+            <div class="kpi-title">Users</div>
+            <div id="kpi-users" class="kpi-value">—</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card shadow-sm h-100 border-0 kpi">
+          <div class="card-body">
+            <div class="kpi-icon bg-success-subtle text-success"><i class="fa-solid fa-comments"></i></div>
+            <div class="kpi-title">Conversations</div>
+            <div id="kpi-convos" class="kpi-value">—</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card shadow-sm h-100 border-0 kpi">
+          <div class="card-body">
+            <div class="kpi-icon bg-warning-subtle text-warning"><i class="fa-solid fa-message"></i></div>
+            <div class="kpi-title">Messages</div>
+            <div id="kpi-messages" class="kpi-value">—</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card shadow-sm h-100 border-0 kpi">
+          <div class="card-body">
+            <div class="kpi-icon bg-info-subtle text-info"><i class="fa-solid fa-list-check"></i></div>
+            <div class="kpi-title">Recommended Qs</div>
+            <div id="kpi-reco" class="kpi-value">—</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Conversations per day -->
+    <div class="card shadow-sm mt-4 border-0">
+      <div class="card-header bg-white"><strong>Conversations per day (30d)</strong></div>
+      <div class="card-body"><canvas id="chart-convos" height="110"></canvas></div>
+    </div>
+
+    <!-- Top clinicians -->
+    <div class="card shadow-sm mt-4 border-0">
+      <div class="card-header bg-white"><strong>Top Clinicians by Conversations</strong></div>
+      <div class="card-body p-0">
+        <table class="table table-sm align-middle mb-0" id="tbl-clinicians">
+          <thead class="table-light"><tr><th>Email</th><th>Conversations</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- All conversations -->
+    <div class="card shadow-sm mt-4 border-0">
+      <div class="card-header bg-white d-flex align-items-center justify-content-between">
+        <strong>All Conversations</strong>
+        <button id="load-more" class="btn btn-outline-secondary btn-sm">Load more</button>
+      </div>
+      <div class="card-body p-0">
+        <table class="table table-sm align-middle mb-0" id="tbl-convos">
+          <thead class="table-light"><tr><th>ID</th><th>Clinician</th><th>Created</th><th></th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div id="conv-detail" class="mt-4"></div>
+
+    <!-- Global Symptoms -->
+    <div class="card shadow-sm mt-4 border-0">
+      <div class="card-header bg-white"><strong>Symptoms (Global Tally)</strong></div>
+      <div class="card-body"><canvas id="chart-symptoms" height="160"></canvas></div>
+    </div>
+
+    <!-- Per-Conversation Symptoms + Disease Likelihoods -->
+    <div class="row g-3 mt-1">
+      <div class="col-md-7">
+        <div class="card shadow-sm border-0">
+          <div class="card-header bg-white"><strong>Per Conversation — Top Symptoms</strong></div>
+          <div class="card-body p-0">
+            <table class="table table-sm align-middle mb-0" id="tbl-conv-symptoms">
+              <thead class="table-light"><tr><th>Clinician</th><th>Conversation</th><th>Top Symptoms</th><th></th></tr></thead>
+              <tbody id="tbl-conv-symptoms-body">
+                <tr><td colspan="4" class="text-muted">Loading…</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="card shadow-sm border-0">
+          <div class="card-header bg-white"><strong>Disease Likelihoods</strong></div>
+          <div class="card-body" id="conv-like-box">
+            <p class="text-muted mb-0">Select a conversation to view estimated likelihoods.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="{{ url_for('static', filename='js/admin.js') }}"></script>
+{% endblock %}
